@@ -1,0 +1,1 @@
+// See http://code.google.com/chrome/extensions/background_pages.html

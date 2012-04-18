@@ -1,0 +1,21 @@
+{
+  "name": "My Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": { 
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "description": "The extension that I made.",
+  "browser_action": {
+    "default_icon": "images/16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    //permissions here
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
